@@ -1,5 +1,4 @@
 import { ArrowRight, Linkedin, Mail } from 'lucide-react';
-import profileImg from "figma:asset/f4bb3d25c8c6dc315ff8ce64ad3dffdba2375b0d.png";
 
 export function Hero() {
   return (
@@ -60,13 +59,7 @@ export function Hero() {
           </div>
           
           <div className="relative">
-            <div className="relative z-10">
-              <img
-                src={profileImg}
-                alt="Hồng Huỳnh"
-                className="w-full max-w-md mx-auto lg:ml-auto rounded-2xl shadow-2xl"
-              />
-            </div>
+            <div className="relative z-10 w-full max-w-md mx-auto lg:ml-auto bg-gradient-to-br from-[#1a56db] to-orange-500 rounded-2xl shadow-2xl h-96 flex items-center justify-center" />
             {/* Decorative elements */}
             <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-[#1a56db] rounded-2xl -z-10" />
             <div className="absolute -top-8 -right-8 w-32 h-32 bg-orange-500 rounded-2xl -z-10" />
